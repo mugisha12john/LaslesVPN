@@ -1,4 +1,4 @@
-import { User, MapPin, Server,CircleCheck } from "lucide-react";
+import { User, MapPin, Server, CircleCheck,Check } from "lucide-react";
 function App() {
   const CardIcon = ({ number, name, icons }) => {
     return (
@@ -70,23 +70,144 @@ function App() {
         </section>
 
         <section className="grid grid-cols-2 mt-10 p-4 m-4">
-          <img src="/src/assets/user_computer.png" className="w-md h-96" alt="person using the computer" />
+          <img
+            src="/src/assets/user_computer.png"
+            className="w-md h-96"
+            alt="person using the computer"
+          />
           <div className="w-lg">
-            <h2 className="font-medium text-5xl text-[#0B132A] mt-10">We Provide Many Features You Can Use</h2>
+            <h2 className="font-medium text-5xl text-[#0B132A] mt-10">
+              We Provide Many Features You Can Use
+            </h2>
             <h2 className="font-normal text-[#4F5665] mt-5 text-lg">
               You can explore the features that we provide with fun and have
               their own functions each feature.
             </h2>
             <ul className="text-[#4F5665] font-normal text-sm mt-5">
-              <li className="mt-3 flex gap-2"><CircleCheck className="text-green-500"/>Powerfull online protection.</li>
-              <li className="mt-3 flex gap-2"><CircleCheck className="text-green-500"/>Internet without borders.</li>
-              <li className="mt-3 flex gap-2"><CircleCheck className="text-green-500"/>Supercharged VPN</li>
-              <li className="mt-3 flex gap-2"><CircleCheck className="text-green-500"/>No specific time limits.</li>
+              <li className="mt-3 flex gap-2">
+                <CircleCheck className="text-green-500" />
+                Powerfull online protection.
+              </li>
+              <li className="mt-3 flex gap-2">
+                <CircleCheck className="text-green-500" />
+                Internet without borders.
+              </li>
+              <li className="mt-3 flex gap-2">
+                <CircleCheck className="text-green-500" />
+                Supercharged VPN
+              </li>
+              <li className="mt-3 flex gap-2">
+                <CircleCheck className="text-green-500" />
+                No specific time limits.
+              </li>
             </ul>
           </div>
         </section>
 
-        
+        <section className="p-4 m-4">
+          <div className="flex flex-col justify-center items-center mt-12">
+            <h2 className="text-[#0B132A] font-normal text-5xl">
+              Choose Your Plan
+            </h2>
+            <h3 className="text-[#4F5665] font-normal text-lg mt-4">
+              Let's choose the package that is best for you and explore it
+              happily and cheerfully.
+            </h3>
+          </div>
+
+          {/* choose plant featue */}
+          <div className="grid grid-cols-3 mt-20">
+            <div className="w-96  border-2 border-[#DDDDDD] flex flex-col justify-center items-center">
+              <img
+                src="/src/assets/user_computer.png"
+                className="w-36 h-40 mt-15"
+                alt="person using the computer"
+              />
+              <h2 className="mt-10 text-[#0B132A] font-bold text-lg">Free Plan</h2>
+              <ul className="text-[#4F5665] font-normal text-sm mt-5">
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Unlimited Bandwitch
+                </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Encrypted Connection
+                </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  No Traffic Logs
+                </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Works on All Devices
+                </li>
+              </ul>
+              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">Free</h1>
+
+              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">Select</button>
+            </div>
+
+            <div className="w-96 border-2 border-[#DDDDDD] flex flex-col justify-center items-center">
+              <img
+                src="/src/assets/user_computer.png"
+                className="w-36 h-40 mt-15"
+                alt="person using the computer"
+              />
+              <h2 className="mt-10 text-[#0B132A] font-bold text-lg">Free Plan</h2>
+              <ul className="text-[#4F5665] font-normal text-sm mt-5">
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Unlimited Bandwitch
+                </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Encrypted Connection
+                </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  No Traffic Logs
+                </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Works on All Devices
+                </li>
+              </ul>
+              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">Free</h1>
+
+              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">Select</button>
+            </div>
+
+            <div className="w-96  border-2 border-[#DDDDDD] flex flex-col justify-center items-center">
+              <img
+                src="/src/assets/user_computer.png"
+                className="w-36 h-40 mt-15"
+                alt="person using the computer"
+              />
+              <h2 className="mt-10 text-[#0B132A] font-bold text-lg">Free Plan</h2>
+              <ul className="text-[#4F5665] font-normal text-sm mt-5">
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Unlimited Bandwitch
+                </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Encrypted Connection
+                </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  No Traffic Logs
+                </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Works on All Devices
+                </li>
+              </ul>
+              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">Free</h1>
+
+              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">Select</button>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
