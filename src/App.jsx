@@ -1,4 +1,4 @@
-import { User, MapPin, Server, CircleCheck,Check } from "lucide-react";
+import { User, MapPin, Server, CircleCheck, Check } from "lucide-react";
 function App() {
   const CardIcon = ({ number, name, icons }) => {
     return (
@@ -123,7 +123,9 @@ function App() {
                 className="w-36 h-40 mt-15"
                 alt="person using the computer"
               />
-              <h2 className="mt-10 text-[#0B132A] font-bold text-lg">Free Plan</h2>
+              <h2 className="mt-10 text-[#0B132A] font-bold text-lg">
+                Free Plan
+              </h2>
               <ul className="text-[#4F5665] font-normal text-sm mt-5">
                 <li className="mt-5 flex gap-5">
                   <Check className="text-green-500" />
@@ -142,9 +144,13 @@ function App() {
                   Works on All Devices
                 </li>
               </ul>
-              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">Free</h1>
+              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">
+                Free
+              </h1>
 
-              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">Select</button>
+              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">
+                Select
+              </button>
             </div>
 
             <div className="w-96 border-2 border-[#DDDDDD] flex flex-col justify-center items-center">
@@ -153,7 +159,9 @@ function App() {
                 className="w-36 h-40 mt-15"
                 alt="person using the computer"
               />
-              <h2 className="mt-10 text-[#0B132A] font-bold text-lg">Free Plan</h2>
+              <h2 className="mt-10 text-[#0B132A] font-bold text-lg">
+                Free Plan
+              </h2>
               <ul className="text-[#4F5665] font-normal text-sm mt-5">
                 <li className="mt-5 flex gap-5">
                   <Check className="text-green-500" />
@@ -172,9 +180,13 @@ function App() {
                   Works on All Devices
                 </li>
               </ul>
-              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">Free</h1>
+              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">
+                Free
+              </h1>
 
-              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">Select</button>
+              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">
+                Select
+              </button>
             </div>
 
             <div className="w-96  border-2 border-[#DDDDDD] flex flex-col justify-center items-center">
@@ -183,7 +195,9 @@ function App() {
                 className="w-36 h-40 mt-15"
                 alt="person using the computer"
               />
-              <h2 className="mt-10 text-[#0B132A] font-bold text-lg">Free Plan</h2>
+              <h2 className="mt-10 text-[#0B132A] font-bold text-lg">
+                Free Plan
+              </h2>
               <ul className="text-[#4F5665] font-normal text-sm mt-5">
                 <li className="mt-5 flex gap-5">
                   <Check className="text-green-500" />
@@ -202,10 +216,25 @@ function App() {
                   Works on All Devices
                 </li>
               </ul>
-              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">Free</h1>
+              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">
+                Free
+              </h1>
 
-              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">Select</button>
+              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">
+                Select
+              </button>
             </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="flex flex-col justify-center items-center mt-12">
+            <h2 className="text-[#0B132A] font-normal text-4xl">
+              Huge Global Network  of Fast VPN
+            </h2>
+            <h3 className="text-[#4F5665] font-normal text-sm mt-4">
+             See LaslesVPN everywhere to make it easier for you when you move locations.
+            </h3>
           </div>
         </section>
       </main>
