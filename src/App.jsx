@@ -17,6 +17,28 @@ function App() {
       </>
     );
   };
+
+  const Feedback = ({ image, name, city, rate, description }) => {
+    return (
+      <>
+        <div className="grid grid-cols-4 w-1/4 border-[#4F5665] rounded-xl p-4 border-2">
+          <img
+            src={image}
+            className="w-12 h-12 rounded-full"
+            alt="profile picture"
+          />
+          <div className="col-span-2 items-start">
+            <p className="text-[#0B132A] font-medium text-lg">{name}</p>
+            <p className="text-[#4F5665] font-normal text-sm">{city}</p>
+          </div>
+          <dir>{rate} ⭐</dir>
+          <p className="text-sm font-medium text-[#4F5665] col-span-4 mt-5">
+            {description}
+          </p>
+        </div>
+      </>
+    );
+  };
   return (
     <>
       <header className="p-4 m-4 grid grid-cols-3   capitalize">
@@ -235,7 +257,7 @@ function App() {
           </div>
         </section>
 
-        <section>
+        <section className="p-4 m-4">
           <div className="flex flex-col justify-center items-center mt-12">
             <h2 className="text-[#0B132A] font-normal text-4xl">
               Huge Global Network of Fast VPN
@@ -257,8 +279,48 @@ function App() {
             alt="our partneship"
           />
         </section>
+        <section className="p-4 m-4">
+          <div className="flex flex-col justify-center items-center mt-12">
+            <h2 className="text-[#0B132A] font-normal text-center text-4xl">
+              Trusted by Thousands of <br /> Happy Customer
+            </h2>
+            <h3 className="text-[#4F5665] font-normal text-center text-sm mt-4">
+              These are the stories of our customers who have joined us with{" "}
+              <br />
+              great pleasure when using this crazy feature.
+            </h3>
+          </div>
 
-        
+          <div className="mt-15 flex gap-10 justify-center ">
+            <Feedback
+              image={"/src/assets/image.png"}
+              rate={4.5}
+              name={"Viezh Robert"}
+              city={"Warsaw, Poland"}
+              description={
+                "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”."
+              }
+            />
+            <Feedback
+              image={"/src/assets/image1.png"}
+              rate={4.5}
+              name={"Yessica Christy"}
+              city={"Shanxi, China"}
+              description={
+                "“I like it because I like to travel far and still can connect with high speed.”"
+              }
+            />
+            <Feedback
+              image={"/src/assets/image2.png"}
+              rate={4.5}
+              name={"Kim Young Jou"}
+              city={"Seoul, South Korea "}
+              description={
+                "“This is very unusual for my business that currently requires a virtual private network that has high security.”"
+              }
+            />
+          </div>
+        </section>
       </main>
     </>
   );
