@@ -148,11 +148,11 @@ function App() {
                 Free
               </h1>
 
-              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">
+              <button className="font-normal text-sm text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2  mt-4">
                 Select
               </button>
             </div>
-
+            {/* second choose */}
             <div className="w-96 border-2 border-[#DDDDDD] flex flex-col justify-center items-center">
               <img
                 src="/src/assets/user_computer.png"
@@ -160,7 +160,7 @@ function App() {
                 alt="person using the computer"
               />
               <h2 className="mt-10 text-[#0B132A] font-bold text-lg">
-                Free Plan
+                Standard Plan
               </h2>
               <ul className="text-[#4F5665] font-normal text-sm mt-5">
                 <li className="mt-5 flex gap-5">
@@ -173,22 +173,26 @@ function App() {
                 </li>
                 <li className="mt-5 flex gap-5">
                   <Check className="text-green-500" />
-                  No Traffic Logs
+                  Yes Traffic Logs
                 </li>
                 <li className="mt-5 flex gap-5">
                   <Check className="text-green-500" />
                   Works on All Devices
                 </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Connect Anyware
+                </li>
               </ul>
-              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">
-                Free
+              <h1 className="text-[#0B132A] font-medium text-2xl mt-32 flex">
+                $9/ <p className="text-[#4F5665]">mo</p>
               </h1>
 
-              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">
+              <button className="font-normal text-sm text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mb-12 mt-4">
                 Select
               </button>
             </div>
-
+            {/* third chooce */}
             <div className="w-96  border-2 border-[#DDDDDD] flex flex-col justify-center items-center">
               <img
                 src="/src/assets/user_computer.png"
@@ -196,7 +200,7 @@ function App() {
                 alt="person using the computer"
               />
               <h2 className="mt-10 text-[#0B132A] font-bold text-lg">
-                Free Plan
+                Premium Plan
               </h2>
               <ul className="text-[#4F5665] font-normal text-sm mt-5">
                 <li className="mt-5 flex gap-5">
@@ -215,12 +219,16 @@ function App() {
                   <Check className="text-green-500" />
                   Works on All Devices
                 </li>
+                <li className="mt-5 flex gap-5">
+                  <Check className="text-green-500" />
+                  Get New Features
+                </li>
               </ul>
-              <h1 className="text-[#0B132A] font-medium text-2xl mt-32">
-                Free
+              <h1 className="text-[#0B132A] font-medium text-2xl mt-32 flex">
+                $12/ <p className="text-[#4F5665]">mo</p>
               </h1>
 
-              <button className="font-normal text-lg text-[#F53838] border-2 border-[#F53838] w-44 rounded-4xl p-2 mt-6">
+              <button className="font-normal text-sm bg-[#F53838] text-white  shadow-[#F53838] shadow-2xl w-44 rounded-4xl p-2 mb-12 mt-6">
                 Select
               </button>
             </div>
@@ -230,10 +238,11 @@ function App() {
         <section>
           <div className="flex flex-col justify-center items-center mt-12">
             <h2 className="text-[#0B132A] font-normal text-4xl">
-              Huge Global Network  of Fast VPN
+              Huge Global Network of Fast VPN
             </h2>
             <h3 className="text-[#4F5665] font-normal text-sm mt-4">
-             See LaslesVPN everywhere to make it easier for you when you move locations.
+              See LaslesVPN everywhere to make it easier for you when you move
+              locations.
             </h3>
           </div>
         </section>
