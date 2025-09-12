@@ -245,7 +245,20 @@ function App() {
               locations.
             </h3>
           </div>
+          <img
+            src="/src/assets/map.png"
+            className="w-4/5 ml-25 mt-20"
+            alt="map of all our vpn acces"
+          />
+
+          <img
+            src="/src/assets/supports.png"
+            className="w-4/5 ml-25 mt-10"
+            alt="our partneship"
+          />
         </section>
+
+        
       </main>
     </>
   );
